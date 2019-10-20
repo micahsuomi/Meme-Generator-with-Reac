@@ -107,11 +107,13 @@ header p {
   }
   .App {
     width: 100%;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
     height: 120vh;
+    margin-top: -50rem;
 
   }
- 
+  
+  
 
   .inputs {
     flex-direction: column;
