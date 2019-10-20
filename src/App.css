@@ -111,10 +111,7 @@ header p {
     height: 120vh;
 
   }
-  .meme-generator-container {
-    margin-top: -100rem;
-  
-  }
+ 
 
   .inputs {
     flex-direction: column;
