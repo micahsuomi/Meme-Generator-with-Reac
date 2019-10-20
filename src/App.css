@@ -109,8 +109,12 @@ header p {
     width: 100%;
     padding: 3rem 2rem;
     height: 120vh;
-    margin-top: -50rem;
+    margin-top: -80rem;
 
+  }
+
+  .meme-generator-container {
+    transform: translate(-50%, -61%);
   }
   
   
