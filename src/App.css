@@ -8,6 +8,9 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);}
+
 .App {
   text-align: center;
   align-content: center;
@@ -108,24 +111,32 @@ header p {
   .App {
     width: 100%;
     padding: 3rem 2rem;
-    height: 120vh;
-    margin-top: -50rem;
+  
 
   }
 
   .meme-generator-container {
-    transform: translate(-50%, -61%);
+    transform: translate(-50%, -7%);
+
   }
   
-  
+  .meme {
+    background: white;
+  }
 
   .inputs {
     flex-direction: column;
+    background: white;
 
   }
 
   .input-field {
     width: 38.5rem;
+    height: 5rem;
+    border: 1px solid lightgray;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: .7rem;
   }
 }
 
