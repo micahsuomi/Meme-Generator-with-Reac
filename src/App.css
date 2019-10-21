@@ -9,7 +9,11 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);}
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  font-family: 'Neucha', cursive;
+
+
+}
 
 .App {
   text-align: center;
@@ -88,11 +92,11 @@ header p {
 .top, .bottom {
   position: absolute;
   color: white;
-  font-family: VT323, monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 3.5rem;
-  text-shadow: 2px 2px rgb(23, 23, 24);
+  text-shadow: 4px 4px rgb(23, 23, 24);
 }
 .top {
   top: 2%;
@@ -111,7 +115,6 @@ header p {
   .App {
     width: 100%;
     padding: 3rem 2rem;
-  
 
   }
 
